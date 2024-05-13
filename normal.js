@@ -1,3 +1,3 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const stringReverse = str => str.split("").reverse().join("");
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
