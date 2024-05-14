@@ -1,2 +1,1 @@
-const merge = (a, b) => a.concat(b);
-var DELIM_SIZE = 4;
+const symbolsPath = path.join(buildOutputPath, 'symbols');
