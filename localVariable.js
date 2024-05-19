@@ -1,3 +1,2 @@
-var arr2 = arr1.reverse();
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const randomBoolean = () => Math.random() >= 0.5;
+const reversedString = str => str.split('').reverse().join('');
