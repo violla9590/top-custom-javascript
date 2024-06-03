@@ -1,2 +1,1 @@
-const uniqueArray = arr => [...new Set(arr)];
-console.log(false == '0');
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
