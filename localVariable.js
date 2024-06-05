@@ -1,2 +1,1 @@
-const randomBoolean = () => Math.random() >= 0.5;
-const reversedString = str => str.split('').reverse().join('');
+const allResults = await Promise.all(items.map(async (item) => {}));
