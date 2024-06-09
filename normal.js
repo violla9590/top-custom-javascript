@@ -1,2 +1,3 @@
-var DELIM_SIZE = 4;
-const minNumber = arr => Math.min(...arr);
+const getRandomBoolean = () => Math.random() >= 0.5;
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
