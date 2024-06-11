@@ -1,3 +1,3 @@
-const stringReverse = str => str.split("").reverse().join("");
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-console.log(typeof typeof 1);
+console.log(false == '0');
+var arr2 = arr1.reverse();
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
