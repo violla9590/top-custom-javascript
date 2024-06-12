@@ -1,1 +1,3 @@
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+function myAPITS(someString: string, someNum: number) { ... };
+const value = ( 5 < 7 ) ? "True" : "False" ;
