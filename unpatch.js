@@ -1,3 +1,3 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-function myAPITS(someString: string, someNum: number) { ... };
-const value = ( 5 < 7 ) ? "True" : "False" ;
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const removeDuplicates = (arr) => [...new Set(arr)];
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
