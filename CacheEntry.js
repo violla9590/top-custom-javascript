@@ -1,2 +1,3 @@
-var c = new Counter(); c.add(); c.add(); c.add();
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const merge = (a, b) => a.concat(b);
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
