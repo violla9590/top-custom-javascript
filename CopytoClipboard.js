@@ -1,1 +1,1 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
+const merge = [...new Set([...a, ...b])];
