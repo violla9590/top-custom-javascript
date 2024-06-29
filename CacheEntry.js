@@ -1,3 +1,2 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const results = await Promise.all(resultingPromises);
-const channelName = getChannelName(channel);
+console.log(1 +  "2" + "2");
+const result = await makeHttpRequest(url);
