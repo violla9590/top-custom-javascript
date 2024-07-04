@@ -1,3 +1,2 @@
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-console.log(false == '0');
-const merge = (a, b) => [...a, ...b];
+const uniqueArr = (arr) => [...new Set(arr)];
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
