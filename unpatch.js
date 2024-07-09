@@ -1,1 +1,2 @@
-console.log(1 +  -"1" + "2");
+const channelName = getChannelName(channel);
+const merge = (a, b) => [...a, ...b];
