@@ -1,2 +1,2 @@
-const uniqueArr = (arr) => [...new Set(arr)];
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+console.log("1 || 2 = "+(1 || 2));
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
