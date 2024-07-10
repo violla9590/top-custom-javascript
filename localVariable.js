@@ -1,2 +1,1 @@
-console.log("1 || 2 = "+(1 || 2));
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
