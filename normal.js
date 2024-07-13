@@ -1,1 +1,1 @@
-const updated = numbers.filter(element => element > 6);
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
