@@ -1,2 +1,3 @@
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
-const value = ( 5 < 7 ) ? "True" : "False" ;
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const randomBoolean = () => Math.random() >= 0.5;
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
