@@ -1,3 +1,2 @@
-const randomBoolean = () => Math.random() >= 0.5;
-const removeDuplicates = (arr) => [...new Set(arr)];
-const merge = [...new Set(a.concat(b))];
+[foo, bar] = [bar, foo];
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
