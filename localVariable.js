@@ -1,3 +1,2 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const randomBoolean = () => Math.random() >= 0.5;
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+var DELIM_SIZE = 4;
+const randomString = () => Math.random().toString(36).slice(2);
