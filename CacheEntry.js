@@ -1,2 +1,3 @@
-[foo, bar] = [bar, foo];
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+const stringReverse = str => str.split("").reverse().join("");
+var arr3 = "jones".split('');
