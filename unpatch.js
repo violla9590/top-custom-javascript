@@ -1,2 +1,2 @@
-console.log(1 +  -"1" + "2");
-const maxNumber = arr => Math.max(...arr);
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+console.log(false === '0');
