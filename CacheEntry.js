@@ -1,3 +1,3 @@
+const repositoryRootPath = path.resolve(__dirname, '..');
 const intermediateAppPath = path.join(buildOutputPath, 'app');
-const stringReverse = str => str.split("").reverse().join("");
-var arr3 = "jones".split('');
+const reversedString = str => str.split('').reverse().join('');
